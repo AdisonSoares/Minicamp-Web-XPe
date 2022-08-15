@@ -1,0 +1,25 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.untitled.hint": "hidden",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.editor.enablePreview": false,
+  "git-autoconfig.configList": [
+      {
+          "user.email": "adison.soares7@gmail.com",
+          "user.name": "Adison Soares"
+      }
+  ],
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.zoomLevel": 2,
+  "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  }
+}

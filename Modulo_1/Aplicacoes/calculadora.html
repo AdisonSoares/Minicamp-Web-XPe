@@ -1,0 +1,23 @@
+<html>
+    <script>
+        function calculo(operacao, valor1, valor2){
+            var resultado
+            if (operacao === "SOMA") {
+                resultado = valor1 + valor2
+            }else if (operacao === "SUBTRACAO") {
+                resultado = valor1 - valor2
+            }else if (operacao === "MULTIPLICACAO") {
+                resultado = valor1 * valor2
+            }else if (operacao === "DIVISAO") {
+                resultado = valor1 / valor2
+            }else if (operacao === "RESTO") {
+                resultado = valor1 % valor2
+            }else if (operacao === "PORCENTAGEM") {
+                resultado = valor1 * valor2 / 100
+            }
+            return resultado
+        }
+
+        console.log(calculo("SOMA", 1, 1));
+    </script>
+</html>
